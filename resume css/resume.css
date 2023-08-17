@@ -17,7 +17,7 @@
 }
 
 .change {
-    width: auto;
+    max-width:none;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -40,9 +40,9 @@
 }
 
 .adjust {
-    padding-left: 200px;
+    padding-left: 225px;
     font-size: 50px;
-
+    
     display: flex;
     overflow: visible;
     text-justify: auto;
@@ -59,4 +59,17 @@
 
 .adjustment{
     font-size: 20px;
+}
+
+li,h3,p{
+    padding-left: 20px;
+}
+
+.lang{
+    padding-bottom: 75px;
+}
+
+body{
+    background-color:black;
+    color:bisque;
 }
